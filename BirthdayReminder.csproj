@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <PackageId>BirthdayReminder</PackageId>
+    <Authors>Chris</Authors>
+    <Company>Chris</Company>
+    <Product>Chris</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Core" Version="1.1.0" />
+    <PackageReference Include="Amazon.Lambda.Serialization.SystemTextJson" Version="2.0.1" />
+    <PackageReference Include="SendGrid" Version="9.22.0" />
+  </ItemGroup>
+
+</Project>
